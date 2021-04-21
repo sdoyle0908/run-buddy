@@ -175,56 +175,58 @@
       </div>
     </section>
 
-    <section id="your-trainers" class="trainers">
+    <section id="your-trainers">
       <h2 class="section-title primary-border">Meet the Trainers</h2>
-      <article class="trainer">
-        <img
-          src="./assets/images/trainer-1.jpg"
-          alt="Arron Stephens in his workout clothes, ready to pump iron"
-        />
-        <div class="trainer-bio text-left">
-          <h3>Arron Stephens</h3>
-          <h4>Speed / Strength</h4>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
-            neque animi quo cupiditate commodi saepe culpa sed itaque velit
-            maiores optio dolorem excepturi aperiam dolores, voluptatibus
-            suscipit amet quis repellat!
-          </p>
-        </div>
-      </article>
-      <article class="trainer">
-        <div class="trainer-bio text-right">
-          <h3>Joanna Gill</h3>
-          <h4>Endurance</h4>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
-            neque animi quo cupiditate commodi saepe culpa sed itaque velit
-            maiores optio dolorem excepturi aperiam dolores, voluptatibus
-            suscipit amet quis repellat!
-          </p>
-        </div>
-        <img
-          src="./assets/images/trainer-2.jpg"
-          alt="Joanna Gill cooling off after a workout"
-        />
-      </article>
-      <article class="trainer">
-        <img
-          src="./assets/images/trainer-3.jpg"
-          alt="Harry Smith wearing a headband and lifting comically small pink weights"
-        />
-        <div class="trainer-bio text-left">
-          <h3>Harry "the Headband" Smith</h3>
-          <h4>Strength</h4>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
-            neque animi quo cupiditate commodi saepe culpa sed itaque velit
-            maiores optio dolorem excepturi aperiam dolores, voluptatibus
-            suscipit amet quis repellat!
-          </p>
-        </div>
-      </article>
+      <div class="trainers">
+        <article class="trainer">
+          <img
+            src="./assets/images/trainer-1.jpg"
+            alt="Arron Stephens in his workout clothes, ready to pump iron"
+          />
+          <div class="trainer-bio">
+            <h3 class="trainer-name">Arron Stephens</h3>
+            <h4 class="trainer-role">Speed / Strength</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+              neque animi quo cupiditate commodi saepe culpa sed itaque velit
+              maiores optio dolorem excepturi aperiam dolores, voluptatibus
+              suscipit amet quis repellat!
+            </p>
+          </div>
+        </article>
+        <article class="trainer">
+          <img
+            src="./assets/images/trainer-2.jpg"
+            alt="Joanna Gill cooling off after a workout"
+          />
+          <div class="trainer-bio">
+            <h3 class="trainer-name">Joanna Gill</h3>
+            <h4 class="trainer-role">Endurance</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+              neque animi quo cupiditate commodi saepe culpa sed itaque velit
+              maiores optio dolorem excepturi aperiam dolores, voluptatibus
+              suscipit amet quis repellat!
+            </p>
+          </div>
+        </article>
+        <article class="trainer">
+          <img
+            src="./assets/images/trainer-3.jpg"
+            alt="Harry Smith wearing a headband and lifting comically small pink weights"
+          />
+          <div class="trainer-bio">
+            <h3 class="trainer-name">Harry "the Headband" Smith</h3>
+            <h4 class="trainer-role">Strength</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+              neque animi quo cupiditate commodi saepe culpa sed itaque velit
+              maiores optio dolorem excepturi aperiam dolores, voluptatibus
+              suscipit amet quis repellat!
+            </p>
+          </div>
+        </article>
+      </div>
     </section>
 
     <!-- "reach out" -->
@@ -233,15 +235,22 @@
         <h2 class="section-title secondary-border">Reach Out</h2>
       </div>
       <div class="contact-info">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.252898090237!2d-75.13810204890927!3d39.7339697047017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6d76a0a329fbf%3A0xe125c9cbb030a490!2s134%20McClelland%20Ave%2C%20Pitman%2C%20NJ%2008071!5e0!3m2!1sen!2sus!4v1618357878280!5m2!1sen!2sus"
-          width="400"
-          height="400"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-        >
-        </iframe>
+        <div>
+          <h3>Run Buddy</h3>
+          <p>
+            Any questions or concerns before signing up?
+            <br />
+            Let us know and we'll be happy to talk to you!
+          </p>
+          <address>
+            55 Main Street <br />
+            Some Town, Ca <br />
+            12345 <br />
+            P: 555.RUN.BUDZ (555.786.2839)<br />
+            E: <a href="mailto://info@runbuddy.io">info@runbuddy.io</a>
+          </address>
+        </div>
+
         <div class="contact-form">
           <h3>Contact Us</h3>
           <form>
@@ -254,21 +263,13 @@
             <button type="submit">Submit</button>
           </form>
         </div>
-        <div>
-          <h3>Run Buddy</h3>
-          <p>
-            Any questions or concerns before signing up?
-            <br />
-            Let us know and we'll be happy to talk to you?
-          </p>
-          <address>
-            55 Main Street <br />
-            Some Town, Ca <br />
-            12345 <br />
-            P: 555.RUN>BUDZ (555.786.2839)<br />
-            E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
-          </address>
-        </div>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12182.30520634488!2d-74.0652613!3d40.2407219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1561060983193!5m2!1sen!2sus"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen
+        ></iframe>
       </div>
     </section>
 
