@@ -1,5 +1,7 @@
 # Run Buddy, Inc
 
+git m
+
 ## Purpose
 
 A website that offers fitness training services.
